@@ -4,6 +4,7 @@ import { Cards } from './components/Cards.jsx'
 import { ListFooter } from './components/ListFooter.jsx'
 import { IconSocial } from './components/IconSocial.jsx'
 import { useState } from 'react'
+import Ilustration from './assets/images/illustration-working.svg'
 
 function App() {
 
@@ -65,7 +66,7 @@ function App() {
             </section>
 
             <section className='w-full'>
-              <div className="max-lg:bg-[center_center] min-h-[23rem] bg-[length:auto_95%] bg-[center_right_-6rem] min-[1310px]:min-h-[30rem] bg-[url(./src/assets/images/illustration-working.svg)] bg-no-repeat max-lg:min-h-[18rem] max-md:min-h-[15rem] max-sm:min-h-[12rem]"></div>
+              <div className="max-lg:bg-[center_center] min-h-[23rem] bg-[length:auto_95%] bg-[center_right_-6rem] min-[1310px]:min-h-[30rem] bg-no-repeat max-lg:min-h-[18rem] max-md:min-h-[15rem] max-sm:min-h-[12rem]" style={{backgroundImage: `url(${Ilustration})`}}></div>
             </section>
           </section>
 
