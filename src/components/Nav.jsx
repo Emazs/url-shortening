@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Button } from "./Button";
+import Logo from '../assets/images/logo.svg'
+import Bars from '../assets/images/bars.svg'
 
 export const Nav = () => {
 
@@ -8,11 +10,11 @@ export const Nav = () => {
     return (
         <nav className='flex w-full justify-between px-[10.5rem] py-[3rem] max-lg:px-[4.5rem] max-sm:px-[2rem]'>
             <section className='flex gap-[44px] items-center max-md:justify-between max-md:w-full'>
-                <img src="./src/assets/images/logo.svg" alt="Icono de la empresa" />
+                <img src={Logo} alt="Icono de la empresa" />
 
                 <section className='hidden max-md:block'>
                     <section onClick={() => stateBars == "hidden" ? setStateBars("visible") : setStateBars("hidden")}>
-                        <img src="./src/assets/images/bars.svg" alt="" className='w-[20px]' />
+                        <img src={Bars} alt="" className='w-[20px]' />
                     </section>
 
                     <section className={`absolute left-[10%] top-[7rem] w-[80%] bg-darkViolet py-[3rem] rounded-[10px] px-[6%] ${stateBars}`}>
