@@ -30,6 +30,7 @@ export const Shortener = () => {
           link: data.data.tiny_url,
           input: inputValue
         }, ...urlShorte]))
+        .catch(error => console.error('Error:', error));
 
       setInputValue("")
     } else {
@@ -83,13 +84,3 @@ export const Shortener = () => {
   )
 }
 
-
-/*
-
--Obtenr el token. ✔
--Obtener el input en un state. ✔
--Crear una funcion para cuadno tengamos el input "Valido". ✔
--Realizar validaciones para saber si la url es valida o no se ingreso nada. ✔
--Realizar la llamada a la api.
--mostrar la informacion.
-*/
