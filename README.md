@@ -31,13 +31,13 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
 1. Clona este repositorio:
     
 ```bash
-git clone https://github.com/tuusuario/landing-page-acortador.git
+git clone https://github.com/Emazs/url-shortening
 ```
 
 2. Navega al directorio del proyecto:
     
 ``` bash
-cd landing-page-acortador
+cd url-shortening
 ```
     
 3. Instala las dependencias:
