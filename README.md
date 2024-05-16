@@ -19,11 +19,39 @@ Para este proyecto, desarrollé una landing page que permite acortar enlaces y c
 
 ### Built with
 
-- React
-- Semantic HTML5 markup
-- Tailwind CSS
-- Flexbox
-  
+-React: Para crear una interfaz de usuario dinámica y componentes reutilizables.
+-HTML5 Semántico: Para una estructura clara y accesible del contenido.
+-Tailwind CSS: Para un diseño moderno y completamente responsivo.
+-Flexbox: Para un diseño flexible y adaptable.
+
+### Installation and execution
+
+Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
+
+1. Clona este repositorio:
+    
+```bash
+git clone https://github.com/tuusuario/landing-page-acortador.git
+```
+
+2. Navega al directorio del proyecto:
+    
+``` bash
+cd landing-page-acortador
+```
+    
+3. Instala las dependencias:
+
+``` bash
+npm install
+```
+    
+4. Inicia la aplicación:
+
+``` bash
+npm run dev
+```
+
 ## Author
 
 - Frontend Mentor - [@Emazs](https://www.frontendmentor.io/profile/Emazs)
